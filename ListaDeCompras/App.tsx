@@ -7,6 +7,7 @@ const App = () => {
   const [productPrice, setProductPrice] = useState('');
   const [productQuantity, setProductQuantity] = useState('');
 
+
   const handleAddProduct = () => {
     const newProduct = {
       name: productName,
